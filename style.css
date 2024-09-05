@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    background:url(WhatsApp\ Image\ 2024-08-31\ at\ 7.11.16\ PM.jpeg) ;
+    background-size: cover;
+    background-attachment: fixed;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    /* background: rgba(255, 255, 255, 0.9);  */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(7, 1, 1, 0.3); 
+    border: 1px solid black;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input,
+form textarea {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    outline: none;
+}
+
+form input[type="submit"] {
+    background: #f5177e; 
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    width: 98%;
+    transition: background 0.3s ease, transform 0.3s ease; 
+}
+
+form input[type="submit"]:hover {
+    background: #2c1364; 
+    transform: scale(1.05); 
+}
+
+.contact-info {
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.contact-info h3 {
+    margin-top: 0;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.social-media {
+    margin: 20px 0;
+}
+
+.social-icon {
+    display: inline-block;
+    font-size: 24px;
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease; 
+}
+
+.social-icon:hover {
+    color: #b225a1; 
+}
+
+.back-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #ca217e;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+
+.back-button:hover {
+    background: #0d024a;
+}
